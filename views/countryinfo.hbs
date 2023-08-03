@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> --}}
+    <link rel="stylesheet" href="css/style.css">
+    <title>country info</title>
+</head>
+<body>
+    <h2>{{>header}}</h2>
+    <form  >
+    <h2>Static weather info</h2>
+    <h2> {{title}}</h2>
+    <h2>{{CountryName}} syria</h2>
+    <h2>{{latitude}} 38.50559189697</h2>
+    <h2>{{longtitude}} 35.0130478400731 </h2>
+    <h2>{{cweather}} its Sunny</h2>
+    </form>
+
+
+<br>
+
+
+<h2>Dynamic weather info</h2>
+     <form id="frm1">
+        <input type="text" id="inp1" placeholder="enter country">
+        <button>search for weather</button>
+    </form>
+
+    <p id="location"></p>
+    <p id="latitude"></p>
+    <p id="longtitude"></p>
+    <p id="weather"></p>
+    <p id="error"></p>
+
+    <script src="js/script.js">
+
+    </script>
+
+    
+
+</body>
+</html>
